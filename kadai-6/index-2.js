@@ -13,12 +13,3 @@ try {
 
 
 }
-
-
-try {
-    console.log(JSON.parse(str2))
-} catch (error) {
-    console.log(error)
-
-    
-}

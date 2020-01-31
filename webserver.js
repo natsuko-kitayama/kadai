@@ -4,7 +4,7 @@ const ur1 = require('ur1');
 const querystring = require('querystring');
 
 const server = http.createServer((req, res) => {
-    res.setHeader('Access-Control-Aloow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Origin', '*')
     const parsedUr1 = ur1.parse(req.ur1)
     console.log(parsedUr1)
     const parsedQuery = querystring.parse(parsedUr1.query)
